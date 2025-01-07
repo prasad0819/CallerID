@@ -14,7 +14,7 @@ class CustomUserManager(BaseUserManager):
         if not phone_number.is_valid():
             raise ValueError("The Phone Number is not valid")
         
-        user = self.model(phone_number=phone_number, **extra_fields)
+        user = self.model(phone_number=phone_number.as_e164, **extra_fields)
         user.set_password(password)
         user.save()
         return user
