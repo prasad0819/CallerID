@@ -23,12 +23,12 @@ from rest_framework_simplejwt.views import (
     TokenRefreshView,
 )
 
-router = routers.DefaultRouter()
-router.register('users', views.UserViewSet)
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('api/', include(router.urls)),
+    path('api/register/', views.CreateUserView.as_view(), name='register'),
+    path('api/add-contact/', views.CreateContactView.as_view(), name='add-contact'),
+    path('api/report-spam/', views.ReportSpamView.as_view(), name='report-spam'),
     path('api/token/', TokenObtainPairView.as_view(), name='token_obtain_pair'),
     path('api/token/refresh/', TokenRefreshView.as_view(), name='token_refresh'),
 ]

@@ -1,4 +1,4 @@
-from .models import CustomUser
+from .models import CustomUser, Contact, SpamReport
 from rest_framework import serializers
 
 class CustomUserSerializer(serializers.ModelSerializer):
@@ -8,11 +8,13 @@ class CustomUserSerializer(serializers.ModelSerializer):
         extra_kwargs = {
             'password': {'write_only': True}
         }
-    
-    def create(self, validated_data):
-        password = validated_data.pop('password', None)
-        instance = self.Meta.model(**validated_data)
-        if password is not None:
-            instance.set_password(password)
-        instance.save()
-        return instance
+
+class ContactSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Contact
+        fields = ['full_name', 'phone_number']
+
+class SpamReportSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = SpamReport
+        fields = ['phone_number']

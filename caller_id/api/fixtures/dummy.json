@@ -1,0 +1,196 @@
+[
+    {
+        "model": "api.customuser",
+        "pk": 1,
+        "fields": {
+            "full_name": "Cyrus Cossell",
+            "phone_number": "+995 756 609 5062",
+            "email": "cyrus@testmail.com",
+            "date_joined": "2021-07-01T00:00:00Z"
+        }
+    },
+    {
+        "model": "api.customuser",
+        "pk": 2,
+        "fields": {
+            "full_name": "Celestine Lyman",
+            "phone_number": "+351 408 317 9259",
+            "email": "celestine@testmail.com",
+            "date_joined": "2021-07-01T00:00:00Z"
+        }
+    },
+    {
+        "model": "api.customuser",
+        "pk": 3,
+        "fields": {
+            "full_name": "Lucina Leyre",
+            "phone_number": "+86 922 265 1068",
+            "email": null,
+            "date_joined": "2021-07-01T00:00:00Z"
+        }
+    },
+    {
+        "model": "api.customuser",
+        "pk": 4,
+        "fields": {
+            "full_name": "Evvie Meo",
+            "phone_number": "+56 770 184 9451",
+            "email": null,
+            "date_joined": "2021-07-01T00:00:00Z"
+        }
+    },
+    {
+        "model": "api.contact",
+        "pk": 1,
+        "fields": {
+            "full_name": "Beryl Tuley",
+            "phone_number": "+55 226 229 7885",
+            "owner_id": 1
+        }
+    },
+    {
+        "model": "api.contact",
+        "pk": 2,
+        "fields": {
+            "full_name": "Shalom Vasilyonok",
+            "phone_number": "+86 693 454 7193",
+            "owner_id": 1
+        }
+    },
+    {
+        "model": "api.contact",
+        "pk": 3,
+        "fields": {
+            "full_name": "Giffie Thurlow",
+            "phone_number": "+81 549 417 1959",
+            "owner_id": 2
+        }
+    },
+    {
+        "model": "api.contact",
+        "pk": 4,
+        "fields": {
+            "full_name": "Moselle Shambroke",
+            "phone_number": "+420 383 772 1127",
+            "owner_id": 2
+        }
+    },
+    {
+        "model": "api.contact",
+        "pk": 5,
+        "fields": {
+            "full_name": "Clint Treagust",
+            "phone_number": "+351 972 705 5908",
+            "owner_id": 3
+        }
+    },
+    {
+        "model": "api.contact",
+        "pk": 6,
+        "fields": {
+            "full_name": "Batsheva Tayt",
+            "phone_number": "+86 521 584 9902",
+            "owner_id": 3
+        }
+    },
+    {
+        "model": "api.contact",
+        "pk": 7,
+        "fields": {
+            "full_name": "B. Tayt",
+            "phone_number": "+86 521 584 9902",
+            "owner_id": 4
+        }
+    },
+    {
+        "model": "api.contact",
+        "pk": 8,
+        "fields": {
+            "full_name": "Goldy Everiss",
+            "phone_number": "+976 890 979 1095",
+            "owner_id": 4
+        }
+    },
+    {
+        "model": "api.contact",
+        "pk": 9,
+        "fields": {
+            "full_name": "C. Lyman",
+            "phone_number": "+351 408 317 9259",
+            "owner_id": 1
+        }
+    },
+    {
+        "model": "api.contact",
+        "pk": 10,
+        "fields": {
+            "full_name": "Cel Lyman",
+            "phone_number": "+351 408 317 9259",
+            "owner_id": 3
+        }
+    },
+    {
+        "model": "api.spamreport",
+        "pk": 1,
+        "fields": {
+            "reported_by_id": 1,
+            "phone_number": "+86 693 454 7193"
+        }
+    },
+    {
+        "model": "api.spamreport",
+        "pk": 2,
+        "fields": {
+            "reported_by_id": 2,
+            "phone_number": "+86 693 454 7193"
+        }
+    },
+    {
+        "model": "api.spamreport",
+        "pk": 3,
+        "fields": {
+            "reported_by_id": 3,
+            "phone_number": "+86 693 454 7193"
+        }
+    },
+    {
+        "model": "api.spamreport",
+        "pk": 4,
+        "fields": {
+            "reported_by_id": 4,
+            "phone_number": "+86 922 265 1068"
+        }
+    },
+    {
+        "model": "api.spamreport",
+        "pk": 5,
+        "fields": {
+            "reported_by_id": 1,
+            "phone_number": "+86 922 265 9999"
+        }
+    },
+    {
+        "model": "api.spamreport",
+        "pk": 6,
+        "fields": {
+            "reported_by_id": 2,
+            "phone_number": "+86 922 265 9999"
+        }
+    },
+    {
+        "model": "api.spamreport",
+        "pk": 7,
+        "fields": {
+            "reported_by_id": 3,
+            "phone_number": "+86 922 265 9999"
+        }
+    },
+    {
+        "model": "api.spamreport",
+        "pk": 8,
+        "fields": {
+            "reported_by_id": 4,
+            "phone_number": "+86 922 265 9999"
+        }
+    }
+]
