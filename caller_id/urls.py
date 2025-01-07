@@ -29,6 +29,8 @@ urlpatterns = [
     path('api/register/', views.CreateUserView.as_view(), name='register'),
     path('api/add-contact/', views.CreateContactView.as_view(), name='add-contact'),
     path('api/report-spam/', views.ReportSpamView.as_view(), name='report-spam'),
+    path('api/search-by-name/', views.SearchContactByNameView.as_view(), name='search-by-name'),
+    path('api/search-by-phone-number/', views.SearchContactByPhoneNumberView.as_view(), name='search-by-phone-number'),
     path('api/token/', TokenObtainPairView.as_view(), name='token_obtain_pair'),
     path('api/token/refresh/', TokenRefreshView.as_view(), name='token_refresh'),
 ]

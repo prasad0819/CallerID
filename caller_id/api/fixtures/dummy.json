@@ -4,7 +4,7 @@
         "pk": 1,
         "fields": {
             "full_name": "Cyrus Cossell",
-            "phone_number": "+995 756 609 5062",
+            "phone_number": "+9957566095062",
             "email": "cyrus@testmail.com",
             "date_joined": "2021-07-01T00:00:00Z"
         }
@@ -14,7 +14,7 @@
         "pk": 2,
         "fields": {
             "full_name": "Celestine Lyman",
-            "phone_number": "+351 408 317 9259",
+            "phone_number": "+3514083179259",
             "email": "celestine@testmail.com",
             "date_joined": "2021-07-01T00:00:00Z"
         }
@@ -24,7 +24,7 @@
         "pk": 3,
         "fields": {
             "full_name": "Lucina Leyre",
-            "phone_number": "+86 922 265 1068",
+            "phone_number": "+869222651068",
             "email": null,
             "date_joined": "2021-07-01T00:00:00Z"
         }
@@ -34,7 +34,7 @@
         "pk": 4,
         "fields": {
             "full_name": "Evvie Meo",
-            "phone_number": "+56 770 184 9451",
+            "phone_number": "+567701849451",
             "email": null,
             "date_joined": "2021-07-01T00:00:00Z"
         }
@@ -44,7 +44,7 @@
         "pk": 1,
         "fields": {
             "full_name": "Beryl Tuley",
-            "phone_number": "+55 226 229 7885",
+            "phone_number": "+552262297885",
             "owner_id": 1
         }
     },
@@ -53,7 +53,7 @@
         "pk": 2,
         "fields": {
             "full_name": "Shalom Vasilyonok",
-            "phone_number": "+86 693 454 7193",
+            "phone_number": "+866934547193",
             "owner_id": 1
         }
     },
@@ -62,7 +62,7 @@
         "pk": 3,
         "fields": {
             "full_name": "Giffie Thurlow",
-            "phone_number": "+81 549 417 1959",
+            "phone_number": "+815494171959",
             "owner_id": 2
         }
     },
@@ -71,7 +71,7 @@
         "pk": 4,
         "fields": {
             "full_name": "Moselle Shambroke",
-            "phone_number": "+420 383 772 1127",
+            "phone_number": "+4203837721127",
             "owner_id": 2
         }
     },
@@ -80,7 +80,7 @@
         "pk": 5,
         "fields": {
             "full_name": "Clint Treagust",
-            "phone_number": "+351 972 705 5908",
+            "phone_number": "+3519727055908",
             "owner_id": 3
         }
     },
@@ -89,7 +89,7 @@
         "pk": 6,
         "fields": {
             "full_name": "Batsheva Tayt",
-            "phone_number": "+86 521 584 9902",
+            "phone_number": "+865215849902",
             "owner_id": 3
         }
     },
@@ -98,7 +98,7 @@
         "pk": 7,
         "fields": {
             "full_name": "B. Tayt",
-            "phone_number": "+86 521 584 9902",
+            "phone_number": "+865215849902",
             "owner_id": 4
         }
     },
@@ -107,7 +107,7 @@
         "pk": 8,
         "fields": {
             "full_name": "Goldy Everiss",
-            "phone_number": "+976 890 979 1095",
+            "phone_number": "+9768909791095",
             "owner_id": 4
         }
     },
@@ -116,7 +116,7 @@
         "pk": 9,
         "fields": {
             "full_name": "C. Lyman",
-            "phone_number": "+351 408 317 9259",
+            "phone_number": "+3514083179259",
             "owner_id": 1
         }
     },
@@ -125,7 +125,7 @@
         "pk": 10,
         "fields": {
             "full_name": "Cel Lyman",
-            "phone_number": "+351 408 317 9259",
+            "phone_number": "+3514083179259",
             "owner_id": 3
         }
     },
@@ -134,7 +134,7 @@
         "pk": 1,
         "fields": {
             "reported_by_id": 1,
-            "phone_number": "+86 693 454 7193"
+            "phone_number": "+866934547193"
         }
     },
     {
@@ -142,7 +142,7 @@
         "pk": 2,
         "fields": {
             "reported_by_id": 2,
-            "phone_number": "+86 693 454 7193"
+            "phone_number": "+866934547193"
         }
     },
     {
@@ -150,7 +150,7 @@
         "pk": 3,
         "fields": {
             "reported_by_id": 3,
-            "phone_number": "+86 693 454 7193"
+            "phone_number": "+866934547193"
         }
     },
     {
@@ -158,7 +158,7 @@
         "pk": 4,
         "fields": {
             "reported_by_id": 4,
-            "phone_number": "+86 922 265 1068"
+            "phone_number": "+869222651068"
         }
     },
     {
@@ -166,7 +166,7 @@
         "pk": 5,
         "fields": {
             "reported_by_id": 1,
-            "phone_number": "+86 922 265 9999"
+            "phone_number": "+869222659999"
         }
     },
     {
@@ -174,7 +174,7 @@
         "pk": 6,
         "fields": {
             "reported_by_id": 2,
-            "phone_number": "+86 922 265 9999"
+            "phone_number": "+869222659999"
         }
     },
     {
@@ -182,7 +182,7 @@
         "pk": 7,
         "fields": {
             "reported_by_id": 3,
-            "phone_number": "+86 922 265 9999"
+            "phone_number": "+869222659999"
         }
     },
     {
@@ -190,7 +190,7 @@
         "pk": 8,
         "fields": {
             "reported_by_id": 4,
-            "phone_number": "+86 922 265 9999"
+            "phone_number": "+869222659999"
         }
     }
 ]
